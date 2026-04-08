@@ -8,9 +8,8 @@
   "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "next dev",
-    "build:next": "next build",
-    "build:cf": "opennextjs-cloudflare build",
-    "build": "yarn build:next && yarn build:cf && cp .open-next/worker.js .open-next/assets/_worker.js",
+    "build": "next build",
+    "cf-build": "opennextjs-cloudflare build",
     "start": "next start",
     "lint": "next lint"
   },
